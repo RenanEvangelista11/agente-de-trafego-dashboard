@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dashboard Meta + Google Ads"
+  short_description: "Replica dashboards isolados por cliente"
+  default_prompt: "Use $meta-google-dashboard para criar um dashboard separado com esta conta Meta e esta planilha Google Ads."

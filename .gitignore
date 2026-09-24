@@ -1,0 +1,13 @@
+# Credenciais locais — nunca enviar ao Git
+.env
+.DS_Store
+
+# Dependências e arquivos gerados
+node_modules/
+npm-debug.log*
+*.log
+planejamento/publicacao-smda.json
+planejamento/publicacao-estaticos.json
+planejamento/publicacao-estaticos-validados.json
+planejamento/publicacao-extras.json
+.vercel

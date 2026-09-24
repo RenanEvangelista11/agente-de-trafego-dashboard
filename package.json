@@ -1,0 +1,22 @@
+{
+  "name": "agente-de-trafego",
+  "version": "1.0.0",
+  "description": "Este projeto será preparado para consultar a API do Meta Ads com segurança.",
+  "main": "src/index.js",
+  "scripts": {
+    "verificar": "node scripts/verificar-configuracao.js",
+    "testar:token": "node scripts/testar-expiracao-token.js",
+    "testar:regras": "node scripts/testar-regras.js",
+    "start": "node src/index.js",
+    "dashboard": "node src/meta-dashboard.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "dotenv": "^17.4.2",
+    "facebook-nodejs-business-sdk": "^24.0.1"
+  }
+}

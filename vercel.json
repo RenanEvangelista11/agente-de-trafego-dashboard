@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/dr-dennis", "destination": "/client-dashboard-v2?client=dr-dennis" },
+    { "source": "/dra-roberta", "destination": "/client-dashboard-v2?client=dra-roberta" },
+    { "source": "/mais-cabelo", "destination": "/client-dashboard-v2?client=mais-cabelo" },
+    { "source": "/fernanda-angelo", "destination": "/client-dashboard-v2?client=fernanda-angelo" }
+  ]
+}
